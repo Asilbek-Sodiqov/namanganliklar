@@ -26,9 +26,9 @@
             </div>
           </div>
           <div class="site-header-search-wrapper flex-box">
-            <div class="site-header-search">
-              Поиск
-            </div>
+            <form action="https://echo.htmlacademy.ru/" method="get" autocomplete="off">
+              <input class="site-header-search" type="text" name="header_search" aria-label="Поиск" placeholder="Поиск">
+            </form>
             <div class="sire-header-languages">
               <span class="sire-header-language-types sire-header-uz">УЗ</span>
               <span class="sire-header-language-types sire-header-ru">РУ</span>
@@ -46,7 +46,7 @@
               <a class="site-header-links" href="./index.html">Главное</a>
             </li>
             <li class="site-header-items">
-              <a class="site-header-links" href="./interesnoy.html">Интересное</a>
+              <a class="site-header-links" href="./interesting.html">Интересное</a>
             </li>
             <li class="site-header-items">
               <a class="site-header-links" href="#">Экономика</a>
@@ -58,7 +58,7 @@
               <a class="site-header-links" href="#">Общество</a>
             </li>
             <li class="site-header-items">
-              <a class="site-header-links" href="#">Технологии</a>
+              <a class="site-header-links" href="./article.html">Технологии</a>
             </li>
             <li class="site-header-items">
               <a class="site-header-links" href="#">Спорт</a>
@@ -177,10 +177,9 @@
               <p class="hero-description description">
                 Во время презентации iPhone 13 Apple придала большое значения...
               </p>
-              <span class="item-title">
-                <img class="title-img" width="20" height="20" src="./images/digger.png" alt="Digger icon">
-                <time datetime="2023-11-22 14:25">Digger.ru 14:25</time>
-              </span>
+              <time class="item-title item-title-digger" datetime="2023-11-22 14:25">
+                Digger.ru 14:25
+              </time>
             </a>
           </li>
           <li class="hero-item">
@@ -191,10 +190,7 @@
               <p class="hero-description description">
                 Во время презентации iPhone 13 Apple придала большое значение...
               </p>
-              <span class="item-title">
-                <img class="title-img" width="20" height="20" src="./images/lenta.png" alt="Lenta icon">
-                <time datetime="2023-11-22 10:54">Lenta.ru 10:54</time>
-              </span>
+              <time class="item-title item-title-lent" datetime="2023-11-22 10:54">Lenta.ru 10:54</time>
             </a>
           </li>
           <li class="hero-item">
@@ -207,10 +203,7 @@
               <p class="hero-description description">
                 Две модели китайского бренда JAC из пяти, представленных на российском...
               </p>
-              <span class="item-title">
-                <img class="title-img" width="20" height="20" src="./images/tarantas.png" alt="Тарантас Ньюс icon">
-                <time datetime="2023-11-22 15:55">Тарантас Ньюс 10:44</time>
-              </span>
+              <time class="item-title item-title-tarants" datetime="2023-11-22 15:55">Тарантас Ньюс 10:44</time>
             </a>
           </li>
         </ul>
@@ -237,7 +230,7 @@
               <a class="site-footer-link" href="#">Информация о сайте</a>
             </li>
             <li class="site-footer-item">
-              <a class="site-footer-link" href="#">Напишите нам</a>
+              <a class="site-footer-link" href="./logen.html">Напишите нам</a>
             </li>
             <li class="site-footer-item">
               <a class="site-footer-link" href="#">Реклама</a>
@@ -248,13 +241,13 @@
           </ul>
           <ul class="site-footer-list">
             <li class="site-footer-item">
-              <a class="site-footer-link" href="#">Информация о сайте</a>
+              <a class="site-footer-link" href="#">Использование материалов</a>
             </li>
             <li class="site-footer-item">
-              <a class="site-footer-link" href="#">Напишите нам</a>
+              <a class="site-footer-link" href="#">Темы дня</a>
             </li>
             <li class="site-footer-item">
-              <a class="site-footer-link" href="#">Реклама</a>
+              <a class="site-footer-link" href="#">Наша команда</a>
             </li>
           </ul>
         </div>
@@ -290,7 +283,6 @@
       </div>
     </div>
   </footer>
-  
   <!-- Site footer end -->
 </body>
 
